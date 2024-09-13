@@ -8,4 +8,6 @@ RUN pip3 install flask-mysql --break-system-packages
 
 COPY webapp.py /opt/app.py
 
+EXPOSE 80
+
 ENTRYPOINT FLASK_APP=/opt/app.py flask run --host=0.0.0.0
