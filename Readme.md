@@ -8,9 +8,9 @@ apt update
 
 apt install -y python3 python3-setuptools python3-dev build-essential python3-pip python3-mysqldb
 
-pip3 install flask
+pip3 install flask --break-system-packages
 
-pip3 install flask-mysql
+pip3 install flask-mysql --break-system-packages
 
 --> create a app.py file and copy the content from app.py file in this directory
 
